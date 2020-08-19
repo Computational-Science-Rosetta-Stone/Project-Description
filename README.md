@@ -1,8 +1,6 @@
 # Computational Science Rosetta Stone
 
-<p align="center">
-  <img source="https://github.com/Computational-Science-Rosetta-Stone/Project-Description/blob/master/rosetta_stone_300x450_icon.jpg">
-</p>
+![The real Rosetta Stone](https://github.com/Computational-Science-Rosetta-Stone/Project-Description/blob/master/rosetta_stone_300x450_icon.jpg)
 
 ## What is this all about?
 This project is intended to provide examples (minimal working examples) of how to do common scientific tasks in code. It is intended to show how to do the same tasks **across** languages. Some rules for the code are listed below.
