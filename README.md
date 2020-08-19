@@ -39,6 +39,9 @@ Therefore, **code that emphasizes similarities across languages is almost always
 
 For example, Python code formatted more like Matlab might make sense if the problem being analyzed is the solution of differential equations. Or an R-like idiom might be preferable for statistics problems even if it is not the natural form for another language. This will be decided on a case-by-case basis.
 
+### `README.md` and `README.tex.md`
+The repositories have [agurodriguez/github-texify](https://github.com/agurodriguez/github-texify) enabled so that files ending in `.tex.md` will be compiled for TeX in their contents and the corresponding `.md` files automatically generated. Please use `.tex.md` for files with mathematical symbols in TeX in them and do not touch the automatically made `.md` files. For examples with no math, please make the `README.md` files directly. Do not expect TeX in code files to be rendered!
+
 ### Organization
 The primary organization is by folder. Within a folder will be a `README.md` file that will specify the problem to be solved and use keywords to make searching easier. If the process is data based, there will be a `Data` subfolder. Please keep the directory structure as flat as possible. Use minimal data and make sure that the data is either artificial or legally can be shared. Please do not use data at other sites or data built-into software (for example, do not use the built in data sets in R!), unless this can be legally extracted and shared in an open format.
 
